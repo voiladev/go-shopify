@@ -95,6 +95,7 @@ type Order struct {
 	TotalPrice             *decimal.Decimal `json:"total_price,omitempty"`
 	CurrentTotalPrice      *decimal.Decimal `json:"current_total_price,omitempty"`
 	SubtotalPrice          *decimal.Decimal `json:"subtotal_price,omitempty"`
+	CurrentSubtotalPrice   *decimal.Decimal `json:"current_subtotal_price,omitempty"`
 	TotalDiscounts         *decimal.Decimal `json:"total_discounts,omitempty"`
 	TotalLineItemsPrice    *decimal.Decimal `json:"total_line_items_price,omitempty"`
 	TaxesIncluded          bool             `json:"taxes_included,omitempty"`
