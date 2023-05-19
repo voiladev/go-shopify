@@ -92,6 +92,7 @@ type Order struct {
 	BillingAddress         *Address         `json:"billing_address,omitempty"`
 	ShippingAddress        *Address         `json:"shipping_address,omitempty"`
 	Currency               string           `json:"currency,omitempty"`
+	PresentmentCurrency    string           `json:"presentment_currency,omitempty"`
 	TotalPrice             *decimal.Decimal `json:"total_price,omitempty"`
 	CurrentTotalPrice      *decimal.Decimal `json:"current_total_price,omitempty"`
 	SubtotalPrice          *decimal.Decimal `json:"subtotal_price,omitempty"`
