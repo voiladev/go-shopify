@@ -68,6 +68,7 @@ type Shop struct {
 	EligibleForPayments             bool       `json:"eligible_for_payments"`
 	RequiresExtraPaymentsAgreement  bool       `json:"requires_extra_payments_agreement"`
 	PreLaunchEnabled                bool       `json:"pre_launch_enabled"`
+	EnabledPresentmentCurrencies    []string   `json:"enabled_presentment_currencies"`
 }
 
 // Represents the result from the admin/shop.json endpoint
